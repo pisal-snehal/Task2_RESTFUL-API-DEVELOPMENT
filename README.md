@@ -1,3 +1,4 @@
+
 # Task 2 - RESTful API for Library System
 
 ## 🏢 Company Details
@@ -27,13 +28,12 @@ This project involves designing and building a **RESTful API** for a **Library M
 
 ## 📁 Project Structure
 
+```
 📂 library-api/
-├── index.js # API routes and logic
-├── package.json # Project dependencies
-└── node_modules/ # Installed libraries
-
----
-
+├── index.js         # API routes and logic
+├── package.json     # Project dependencies
+└── node_modules/    # Installed libraries
+```
 
 ---
 
@@ -42,9 +42,15 @@ This project involves designing and building a **RESTful API** for a **Library M
 1. Clone the repository or download the project files  
 2. Open a terminal in the project directory  
 3. Install the dependencies:
+   ```
+   npm install
+   ```
 4. Run the server:
-5. The API will run on:  
-**http://localhost:8080**
+   ```
+   node index.js
+   ```
+5. The API will run at:  
+   **http://localhost:8080**
 
 ---
 
@@ -62,61 +68,64 @@ This project involves designing and building a **RESTful API** for a **Library M
 
 ---
 
-## 🧪 Sample Book Data
+## 🧾 Sample Book Data
 
 ```json
 [
-{
- "id": "uuid",
- "title": "Chava",
- "author": "Shivaji Sawant"
-},
-{
- "id": "uuid",
- "title": "Wings of Fire",
- "author": "A.P.J Abdul Kalam"
-}
+  {
+    "id": "uuid",
+    "title": "Chava",
+    "author": "Shivaji Sawant"
+  },
+  {
+    "id": "uuid",
+    "title": "Wings of Fire",
+    "author": "A.P.J Abdul Kalam"
+  }
 ]
+```
 
 ---
 
-🧪 Postman Testing
-All the API endpoints were tested using Postman:
+## 🧪 Postman Testing
 
-✔️ Sent GET, POST, PATCH, DELETE requests
+All the API endpoints were tested using **Postman**:
 
-✔️ Received proper JSON responses
-
-✔️ Handled invalid IDs with 404 errors
-
-✔️ Confirmed correct status codes (200, 201, 404)
+- ✔️ Sent GET, POST, PATCH, DELETE requests  
+- ✔️ Received proper JSON responses  
+- ✔️ Handled invalid IDs with 404 errors  
+- ✔️ Confirmed correct status codes (200, 201, 404)
 
 ---
 
-⚠️ Limitations
-Data is stored in memory and resets on server restart
+## ⚠️ Limitations
 
-No database or persistent storage
-
-No input validation or authentication
+- Data is stored in memory and resets on server restart  
+- No database or persistent storage  
+- No input validation or authentication  
 
 ---
 
-🔮 Future Enhancements
-Connect to a database (MongoDB or MySQL)
+## 🔮 Future Enhancements
 
-Add full validation and error handling
-
-Implement user login/authentication
-
-Create a frontend interface for managing books.
+- Connect to a database (MongoDB or MySQL)  
+- Add full validation and error handling  
+- Implement user login/authentication  
+- Create a frontend interface for managing books  
 
 ---
 
 ## 📷 Output Screenshots
 
-![Image](https://github.com/user-attachments/assets/76380ebf-17f3-42d4-a761-1ef9663acb0a)
-![Image](https://github.com/user-attachments/assets/f86ca3bb-9a80-4f88-99c6-b3f6d4de8848)
-![Image](https://github.com/user-attachments/assets/c3e0082a-16a4-4f02-b63e-2c406b3af98e)
-![Image](https://github.com/user-attachments/assets/3a687b85-bfd3-4004-bf08-da8f2cf00c14)
-![Image](https://github.com/user-attachments/assets/05ade3a1-579a-419a-9086-9b502c13e306)
+![Image](https://github.com/user-attachments/assets/76380ebf-17f3-42d4-a761-1ef9663acb0a)  
+![Image](https://github.com/user-attachments/assets/f86ca3bb-9a80-4f88-99c6-b3f6d4de8848)  
+![Image](https://github.com/user-attachments/assets/c3e0082a-16a4-4f02-b63e-2c406b3af98e)  
+![Image](https://github.com/user-attachments/assets/3a687b85-bfd3-4004-bf08-da8f2cf00c14)  
+![Image](https://github.com/user-attachments/assets/05ade3a1-579a-419a-9086-9b502c13e306)  
+
+---
+
+## ✅ Status
+
+**Task 2 Completed Successfully ✅**  
+Tested thoroughly using **Postman** with all CRUD operations working as expected.
